@@ -8,85 +8,85 @@ const PhotoList = ({ category }) => {
   const [photos] = useState([
     {
       name: 'Grocery aisle',
-      category: 'commercial',
+      category: 'portfolio',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
     },
     {
       name: 'Grocery booth',
-      category: 'commercial',
+      category: 'portfolio',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
     },
     {
       name: 'Building exterior',
-      category: 'commercial',
+      category: 'portfolio',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
     },
     {
       name: 'Restaurant table',
-      category: 'commercial',
+      category: 'portfolio',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
     },
     {
       name: 'Cafe interior',
-      category: 'commercial',
+      category: 'portfolio',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
     },
     {
       name: 'Cat green eyes',
-      category: 'portraits',
+      category: 'In-progress',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
     },
     {
       name: 'Green parrot',
-      category: 'portraits',
+      category: 'In-progress',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
     },
     {
       name: 'Yellow macaw',
-      category: 'portraits',
+      category: 'In-progress',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
     },
     {
       name: 'Pug smile',
-      category: 'portraits',
+      category: 'In-progress',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
     },
     {
       name: 'Pancakes',
-      category: 'food',
+      category: 'resume',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
     },
     {
       name: 'Burrito',
-      category: 'food',
+      category: 'resume',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
     },
     {
       name: 'Scallop pasta',
-      category: 'food',
+      category: 'resume',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
     },
     {
       name: 'Burger',
-      category: 'food',
+      category: 'resume',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
     },
     {
       name: 'Fruit bowl',
-      category: 'food',
+      category: 'resume',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
     },
