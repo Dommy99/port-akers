@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Header from './components/Header';
+import Footer from './components/Footer';
 import About from './components/About';
 import Gallery from './components/Gallery';
 import ContactForm from './components/Contact';
@@ -8,7 +9,7 @@ function App() {
   const [categories] = useState([
     {
       name: 'portfolio',
-      description: 'Photos of grocery stores, food trucks, and other commercial projects',
+      description: 'Photos of finshed projects',
     },
     { name: 'in-progress', description: 'Portraits of people in my life' },
     { name: 'resume', description: 'Delicious delicacies' },
@@ -37,6 +38,13 @@ function App() {
         ) : (
           <ContactForm></ContactForm>
         )}
+        <Footer
+        categories={categories}
+        setCurrentCategory={setCurrentCategory}
+        currentCategory={currentCategory}
+        contactSelected={contactSelected}
+        setContactSelected={setContactSelected}
+      ></Footer>
       </main>
     </div>
   );

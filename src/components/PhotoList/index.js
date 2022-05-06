@@ -7,34 +7,58 @@ const PhotoList = ({ category }) => {
 
   const [photos] = useState([
     {
-      name: 'Grocery aisle',
+      name: 'Third-Party APIs: Work Day Scheduler',
       category: 'portfolio',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
+        'The website uses local storage and time to help users keep track of events on a average workday.'
     },
     {
-      name: 'Grocery booth',
+      name: 'Server-Side APIs: Weather Dashboard',
       category: 'portfolio',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
+        "This app was a requirment during the bootcamp it shows my understanding of local storage, DOM manipulation, and API usage. It's also a cool funtional weather application"
     },
     {
-      name: 'Building exterior',
+      name: 'G.O.A.T. Scale',
       category: 'portfolio',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
+        'This was a group project to make a fantasy football game called G.O.A.T Scale. A place where you can still keep the football season alive!! Test your knowledge on fantasy football!!!'
     },
     {
-      name: 'Restaurant table',
+      name: 'Node.js: Professional README Generator',
       category: 'portfolio',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
+        'This application will generate a README.md after the user imputs their data into command-line using Node.js.'
     },
     {
-      name: 'Cafe interior',
+      name: 'Object-Oriented Programming: Team Profile Generator',
       category: 'portfolio',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
+        'This application will generate cards containing information about employees after the user imputs their data into command-line using Node.js. The html is generated using regex and data input from inquirer.'
+    },
+    {
+      name: 'Express.js: Note Taker',
+      category: 'portfolio',
+      description:
+        'The Note Taker Pro application uses a database to manage and store notes.'
+    },
+    {
+      name: 'SQL: Employee Tracker',
+      category: 'portfolio',
+      description:
+        'With API routes, GET, POST, PUT, Delete, and a database this application can use the Command-line to look up and add data for employees and the departments they work in.'
+    },
+    {
+      name: 'Object-Relational Mapping (ORM): E-commerce Back End',
+      category: 'portfolio',
+      description:
+        'Using GET, POST, PUT, Delete, and a database this app can use a database to manipulate and display data.'
+    },
+    {
+      name: 'Water Color 💧',
+      category: 'portfolio',
+      description:
+        "Water Color is a platform that allows users to publish their creativity through our 'Graffiti Board' and be able to interact with other users postson a slick UI."
     },
     {
       name: 'Cat green eyes',

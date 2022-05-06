@@ -5,7 +5,7 @@ main {
 }
 :root {
   --primary: #8c54ff;
-  --secondary: #f3a847;
+  --secondary: #47f3dc;
   --tertiary: #b12704;
   --light: #fafafa;
   --dark: #05345a;
@@ -93,6 +93,14 @@ header {
 }
 
 header a {
+  color: var(--light);
+}
+
+footer {
+  background: var(--darker);
+}
+
+footer a {
   color: var(--light);
 }
 
@@ -251,7 +259,7 @@ textarea {
 }
 
 .modalContainer {
-  background: var(--darker);
+  background: var(--dark);
   border-radius: 5px;
   max-width: 100%;
   margin: 50px auto;
